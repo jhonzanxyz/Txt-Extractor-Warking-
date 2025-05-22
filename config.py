@@ -23,22 +23,22 @@ PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-1002278731669"))
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("API_ID"))
+API_ID = int(os.environ.get("29344139"))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH")
+API_HASH = os.environ.get("6972ba754ccab4894a193ac7b5150325")
 # ----------------D--------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("7842780078:AAG-8EEvMIq9iofWEkTgIc_HdCQn2fq5j14")
 # -----------------A-------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME")
+BOT_USERNAME = os.environ.get("YoutubeDownloder01_Bot")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+OWNER_ID = int(os.environ.get("6444269766"))
 # ------------------X------------------------------
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("6444269766", "").split()))
 # ------------------------------------------------
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))
+CHANNEL_ID = int(os.environ.get("-1002610392890"))
 # ------------------------------------------------
-MONGO_URL = os.environ.get("MONGO_URL")
+MONGO_URL = os.environ.get("mongodb+srv://jhonzanxyz:<db_password>@cluster0.s72z09v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS"))
+PREMIUM_LOGS = int(os.environ.get("-1002656760888"))
 
